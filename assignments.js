@@ -123,3 +123,20 @@ console.log(russia);
 console.log(spain);
 console.log(england);
 */
+
+function percentageOfWorld1(population) {
+    return ((population / 7900) * 100);
+}
+
+const percentageRussia = percentageOfWorld1(145);
+const percentageItaly = percentageOfWorld1(59);
+const percentageChina = percentageOfWorld1(1441);
+
+console.log(percentageRussia, percentageItaly, percentageChina);
+
+
+const percentageOfWorld2 = function (population) {
+    return ((population / 7900) * 100);
+}
+
+console.log(percentageOfWorld2(145), percentageOfWorld2(59), percentageOfWorld2(1441));
