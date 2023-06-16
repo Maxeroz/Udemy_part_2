@@ -122,7 +122,6 @@ const england = describeCountry("England", 56, "London");
 console.log(russia);
 console.log(spain);
 console.log(england);
-*/
 
 function percentageOfWorld1(population) {
     return ((population / 7900) * 100);
@@ -140,3 +139,8 @@ const percentageOfWorld2 = function (population) {
 }
 
 console.log(percentageOfWorld2(145), percentageOfWorld2(59), percentageOfWorld2(1441));
+
+const percentageOfWorld3 = population => (population / 7900) * 100;
+
+console.log(percentageOfWorld3(145), percentageOfWorld3(59), percentageOfWorld3(1441));
+*/
