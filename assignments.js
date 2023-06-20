@@ -157,7 +157,7 @@ function describePopulation(country, population) {
 console.log(describePopulation("Russia", 145));
 console.log(describePopulation("China", 1441));
 console.log(describePopulation("Italy", 59));
-*/
+
 const calcAverage = (scoreOne, scoreTwo, scoreThree) => (scoreOne + scoreTwo + scoreThree) / 3;
 
 let scoreDolphins = calcAverage(44, 23, 71);
@@ -182,3 +182,4 @@ scoreKoalas = calcAverage(23, 34, 27);
 
 console.log(scoreDolphins, scoreKoalas);
 checkWinner(scoreDolphins, scoreKoalas);
+*/
