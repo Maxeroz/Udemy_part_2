@@ -183,3 +183,20 @@ scoreKoalas = calcAverage(23, 34, 27);
 console.log(scoreDolphins, scoreKoalas);
 checkWinner(scoreDolphins, scoreKoalas);
 */
+
+const population = [145, 1441, 59, 56];
+
+if (population.length === 4) {
+    console.log("Has 4 elements");
+} else {
+    console.log("Does not containt 4 elemets");
+}
+console.log(population);
+
+function percentageOfWorld1(population) {
+    return ((population / 7900) * 100);
+}
+
+const percentages = [percentageOfWorld1(population[0]), percentageOfWorld1(population[1]), percentageOfWorld1(population[2]), percentageOfWorld1(population[3])];
+
+console.log(percentages);
