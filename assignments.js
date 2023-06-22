@@ -182,7 +182,6 @@ scoreKoalas = calcAverage(23, 34, 27);
 
 console.log(scoreDolphins, scoreKoalas);
 checkWinner(scoreDolphins, scoreKoalas);
-*/
 
 const population = [145, 1441, 59, 56];
 
@@ -197,6 +196,32 @@ function percentageOfWorld1(population) {
     return ((population / 7900) * 100);
 }
 
-const percentages = [percentageOfWorld1(population[0]), percentageOfWorld1(population[1]), percentageOfWorld1(population[2]), percentageOfWorld1(population[3])];
+const percentages = [
+    percentageOfWorld1(population[0]),
+    percentageOfWorld1(population[1]),
+    percentageOfWorld1(population[2]),
+    percentageOfWorld1(population[3])
+];
 
 console.log(percentages);
+
+const neighbours = ["Ukraine", "Qazaqstan", "China", "USA", "Finland"];
+console.log(neighbours);
+
+neighbours.push("Utopia");
+console.log(neighbours);
+
+neighbours.pop();
+console.log(neighbours);
+
+if (neighbours.includes("Germany")) {
+    console.log("Central European country")
+} else {
+    console.log("Probably not a central European country :D")
+}
+
+// console.log(neighbours.indexOf("Finland"));
+// neighbours[4] = "Republic of Finland";
+neighbours[neighbours.indexOf("Finland")] = "Republic of Finland";
+console.log(neighbours);
+*/
