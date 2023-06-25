@@ -224,7 +224,6 @@ if (neighbours.includes("Germany")) {
 // neighbours[4] = "Republic of Finland";
 neighbours[neighbours.indexOf("Finland")] = "Republic of Finland";
 console.log(neighbours);
-*/
 
 function calcTip(bill) {
     if (bill >= 50 && bill <= 300) {
@@ -242,3 +241,14 @@ console.log(tips);
 
 const total = [bills[0] + tips[0], bills[1] + tips[1], bills[2] + tips[2]];
 console.log(total);
+*/
+
+const myCountry = {
+    country: "Russia",
+    capital: "Moscow",
+    language: "Russian",
+    population: 145,
+    neighbours: ["Ukraine", "China", "Kazahstan", "Belarus"]
+}
+
+console.log(myCountry);
