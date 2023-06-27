@@ -178,7 +178,6 @@ const jonas = {
     job: "teacher",
     friends: ["Michael", "Peter", "Steven"]
 }
-*/
 
 const jonas = {
     firstName: "Jonas",
@@ -211,3 +210,4 @@ console.log(jonas);
 
 // Challenge
 console.log(`${jonas.firstName} has ${jonas.friends.length} friends, and his best friend is called ${jonas.friends[0]}`);
+*/
