@@ -251,7 +251,6 @@ const myCountry = {
 }
 
 console.log(myCountry);
-*/
 
 const myCountry = {
     country: "Russia",
@@ -267,3 +266,4 @@ myCountry.population += 2;
 console.log(myCountry);
 myCountry["population"] -= 2;
 console.log(myCountry)
+*/
