@@ -267,3 +267,23 @@ console.log(myCountry);
 myCountry["population"] -= 2;
 console.log(myCountry)
 */
+
+const myCountry = {
+    country: "Russia",
+    capital: "Moscow",
+    language: "Russian",
+    population: 145,
+    neighbours: ["Ukraine", "China", "Kazahstan", "Belarus"],
+
+    describe: function () {
+        console.log(`${this.country} has ${this.population} million ${this.language}-speaking people, ${this.neighbours.length} neighbouring countries and a capital called ${this.capital}.`);
+    },
+    checkIsIsland: function () {
+        return myCountry.isIsland = this.neighbours ? "false" : "true";
+    }
+}
+
+myCountry.describe()
+myCountry.checkIsIsland()
+
+console.log(myCountry);

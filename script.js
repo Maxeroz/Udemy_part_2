@@ -210,7 +210,6 @@ console.log(jonas);
 
 // Challenge
 console.log(`${jonas.firstName} has ${jonas.friends.length} friends, and his best friend is called ${jonas.friends[0]}`);
-*/
 
 const jonas = {
     firstName: "Jonas",
@@ -247,5 +246,4 @@ console.log(jonas.age);
 console.log(jonas.age);
 console.log(jonas.getSum());
 
-//Challenge 
-
+*/
