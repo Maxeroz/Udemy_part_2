@@ -317,3 +317,7 @@ console.log(mark);
 
 console.log(`${john.bmi > mark.bmi ? john.fullName : mark.fullName} (${john.bmi > mark.bmi ? john.bmi : mark.bmi}) BMI is higher than ${mark.bmi < john.bmi ? mark.fullName : john.fullName} (${mark.bmi < john.bmi ? mark.bmi : john.bmi}) BMI!`);
 */
+
+for (let voter = 1; voter <= 50; voter++) {
+    console.log(`Voter number ${voter} is currently voting`);
+};

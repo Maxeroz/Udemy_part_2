@@ -245,8 +245,9 @@ console.log(jonas.age);
 console.log(jonas.age);
 console.log(jonas.age);
 console.log(jonas.getSum());
-*/
 
+// Loop keeps running until condition is TRUE;
 for (let rep = 1; rep <= 10; rep++) {
     console.log(`Lifting weights repetition ${rep}`);
 };
+*/
