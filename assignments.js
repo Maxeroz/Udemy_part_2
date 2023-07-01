@@ -286,12 +286,11 @@ myCountry.describe()
 myCountry.checkIsIsland()
 
 console.log(myCountry);
-*/
 
 const mark = {
     fullName: "Mark Miller",
-    mass: 92,
-    height: 1.95,
+    mass: 78,
+    height: 1.69,
 
     calcBMI: function () {
         this.bmi = this.mass / (this.height * this.height);
@@ -301,8 +300,8 @@ const mark = {
 
 const john = {
     fullName: "John Smith",
-    mass: 78,
-    height: 1.69,
+    mass: 92,
+    height: 1.95,
 
     calcBMI: function () {
         this.bmi = this.mass / (this.height * this.height);
@@ -316,5 +315,5 @@ console.log(john.calcBMI())
 console.log(john);
 console.log(mark);
 
-
-console.log(`${john.bmi > mark.bmi ? john.fullName : mark.fullName} ${john.bmi > mark.bmi ? john.bmi : mark.bmi} is higher than ${mark.bmi < john.bmi ? mark.fullName : john.fullName} ${mark.bmi < john.bmi ? mark.bmi : john.bmi}!`);
+console.log(`${john.bmi > mark.bmi ? john.fullName : mark.fullName} (${john.bmi > mark.bmi ? john.bmi : mark.bmi}) BMI is higher than ${mark.bmi < john.bmi ? mark.fullName : john.fullName} (${mark.bmi < john.bmi ? mark.bmi : john.bmi}) BMI!`);
+*/
