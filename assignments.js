@@ -320,4 +320,24 @@ console.log(`${john.bmi > mark.bmi ? john.fullName : mark.fullName} (${john.bmi 
 for (let voter = 1; voter <= 50; voter++) {
     console.log(`Voter number ${voter} is currently voting`);
 };
+
+const population = [145, 1441, 59, 56];
+const percentages2 = [];
+
+function percentageOfWorld1(population) {
+    return ((population / 7900) * 100);
+}
+
+for (let index = 0; index < population.length; index++) {
+    percentages2.push(percentageOfWorld1(population[index]));
+}
+
+const percentages = [
+    percentageOfWorld1(population[0]),
+    percentageOfWorld1(population[1]),
+    percentageOfWorld1(population[2]),
+    percentageOfWorld1(population[3])
+];
+
+console.log(percentages, percentages2);
 */

@@ -250,7 +250,6 @@ console.log(jonas.getSum());
 for (let rep = 1; rep <= 10; rep++) {
     console.log(`Lifting weights repetition ${rep}`);
 };
-*/
 
 const jonasArray = [
     "Jonas",
@@ -299,3 +298,4 @@ for (let index = 0; index < jonasArray.length; index++) {
 
     console.log(jonasArray[index], typeof jonasArray[index]);
 }
+*/
