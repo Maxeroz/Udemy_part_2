@@ -251,3 +251,51 @@ for (let rep = 1; rep <= 10; rep++) {
     console.log(`Lifting weights repetition ${rep}`);
 };
 */
+
+const jonasArray = [
+    "Jonas",
+    "Schmedtmann",
+    2037 - 1991,
+    "teacher",
+    ["Michael", "Peter", "Steven"],
+    true
+];
+
+const typesArray = [];
+
+for (let index = 0; index < jonasArray.length; index++) {
+    // Reading from jonasArray
+    console.log(jonasArray[index], typeof jonasArray[index]);
+
+    // Filling types array
+
+    // typesArray.push(typeof jonasArray[index]);
+
+    typesArray[index] = typeof jonasArray[index];
+}
+
+console.log(typesArray);
+
+const years = [1991, 2007, 1969, 2020];
+const ages = [];
+
+for (let index = 0; index < years.length; index++) {
+    ages.push(2037 - years[index]);
+}
+
+console.log(ages)
+
+// continue and break
+console.log("--- ONLY STRINGS ---");
+for (let index = 0; index < jonasArray.length; index++) {
+    if (typeof jonasArray[index] !== "string") continue;
+
+    console.log(jonasArray[index], typeof jonasArray[index]);
+}
+
+console.log("--- BREAK WITH NUMBER ---");
+for (let index = 0; index < jonasArray.length; index++) {
+    if (typeof jonasArray[index] == "number") break;
+
+    console.log(jonasArray[index], typeof jonasArray[index]);
+}
