@@ -341,3 +341,15 @@ const percentages = [
 
 console.log(percentages, percentages2);
 */
+
+const listOfNeighbours = [
+    ["Canada", "Mexico"],
+    ["Spain"],
+    ["Norway", "Sweden", "Russia"]
+];
+
+for (let index = 0; index <= listOfNeighbours.length - 1; index++) {
+    for (let a = 0; a < listOfNeighbours[index].length; a++) {
+        console.log(listOfNeighbours[index][a])
+    }
+};
