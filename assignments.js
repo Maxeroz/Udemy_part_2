@@ -340,7 +340,6 @@ const percentages = [
 ];
 
 console.log(percentages, percentages2);
-*/
 
 const listOfNeighbours = [
     ["Canada", "Mexico"],
@@ -353,3 +352,20 @@ for (let index = 0; index <= listOfNeighbours.length - 1; index++) {
         console.log(listOfNeighbours[index][a])
     }
 };
+
+function percentageOfWorld1(population) {
+    return ((population / 7900) * 100);
+}
+
+const population = [145, 1441, 59, 56];
+const percentages3 = [];
+
+let index = 0;
+
+while (index < population.length) {
+    percentages3.push(percentageOfWorld1(population[index]));
+    index++;
+}
+
+console.log(percentages3);
+*/
